@@ -1,44 +1,39 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React from "react";
 import {
   Drawer,
   Typography,
-  IconButton,
   List,
   ListItem,
   ListItemPrefix,
+  Button,
 } from "@material-tailwind/react";
 import { Link, useLocation } from "react-router-dom";
 import { PropsTypesDrawer } from "@TypesApp";
 const Drawers = ({ open, closeDrawer }: PropsTypesDrawer) => {
   const { state } = useLocation();
+
   return (
     <React.Fragment>
       <Drawer
-        transition={{ duration: 0.1 }}
+        transition={{ duration: 0.5 }}
         size={270}
         open={open}
         onClose={closeDrawer}
       >
-        <div className="mb-2 flex items-center justify-between p-4">
-          <Typography variant="h5" color="light-blue">
+        <div className="mb-2 flex items-center justify-between p-4 text-center">
+          <Typography variant="h5" color="light-blue" className="w-10">
             UPC CALCULADORA
           </Typography>
-          <IconButton variant="text" color="blue-gray" onClick={closeDrawer}>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={2}
-              stroke="currentColor"
-              className="h-5 w-5"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M6 18L18 6M6 6l12 12"
-              />
-            </svg>
-          </IconButton>
+          <Button
+            variant="gradient"
+            color="blue"
+            size="sm"
+            className="!absolute top-5 right-3"
+            onClick={closeDrawer}
+          >
+            X
+          </Button>
         </div>
         <List>
           <Link to={"/"} onClick={closeDrawer} state={{ path_route: "inicio" }}>

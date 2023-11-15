@@ -24,7 +24,7 @@ const AlertDev = ({ alertDev, setAlertDev }: UiAlert): JSX.Element => {
       action={
         <Button
           variant="gradient"
-          color="gray"
+          color="blue"
           size="sm"
           className="!absolute top-3 right-3"
           onClick={() => setAlertDev(false)}
@@ -37,10 +37,9 @@ const AlertDev = ({ alertDev, setAlertDev }: UiAlert): JSX.Element => {
         mount: { y: 0 },
         unmount: { y: 100 },
       }}
-      className="rounded-none border-l-4 border-[#2ec946] bg-[#2ec946]/10 font-medium text-[#2ec946] mx-auto mt-10"
+      className="rounded-md border-l-4 border-[#03A9F4] bg-[#FFB8A2]/20 font-extrabold text-[#03A9F4] mx-auto mt-10"
     >
-      En Desarrollo habran mas de 20 formas de hacer conversiones... <hr />
-      Por el momento ✅ Aceleracion.
+      En Desarrollo habran mas de 20 formas de hacer conversiones..
     </Alert>
   );
 };
