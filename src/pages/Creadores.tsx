@@ -12,7 +12,7 @@ const Creadores = (): JSX.Element => {
         CREADORES
       </Typography>
       <CardCreators />
-      <FooterCalc ft />
+      <FooterCalc />
     </>
   );
 };
