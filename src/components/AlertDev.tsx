@@ -37,7 +37,7 @@ const AlertDev = ({ alertDev, setAlertDev }: UiAlert): JSX.Element => {
         mount: { y: 0 },
         unmount: { y: 100 },
       }}
-      className="rounded-md border-l-4 border-[#03A9F4] bg-[#FFB8A2]/20 font-extrabold text-[#03A9F4] mx-auto mt-10"
+      className="rounded-md border-l-4 border-b-4 border-[#03A9F4] bg-[#FFB8A2]/20 font-extrabold text-[#03A9F4] mx-auto mt-10"
     >
       En Desarrollo habran mas de 20 formas de hacer conversiones..
     </Alert>
