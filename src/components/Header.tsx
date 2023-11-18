@@ -8,7 +8,7 @@ const Header = (): JSX.Element => {
       </div>
       <div>
         <Typography variant="h3" color="light-blue">
-          FULL CALCULADORA FISICA
+          CALCULADORA FISICA
         </Typography>
       </div>
     </>

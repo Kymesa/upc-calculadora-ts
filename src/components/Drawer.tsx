@@ -39,10 +39,11 @@ const Drawers = ({ open, closeDrawer }: PropsTypesDrawer) => {
           <Link to={"/"} onClick={closeDrawer} state={{ path_route: "inicio" }}>
             <ListItem
               style={
-                state &&
-                (state.path_route === "inicio"
-                  ? { backgroundColor: "#4fc3f7" }
-                  : null)
+                state
+                  ? state.path_route === "inicio"
+                    ? { backgroundColor: "#4fc3f7" }
+                    : undefined
+                  : { backgroundColor: "#4fc3f7" }
               }
             >
               <ListItemPrefix>
