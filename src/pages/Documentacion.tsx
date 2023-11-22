@@ -7,9 +7,15 @@ const Documentacion = (): JSX.Element => {
     <>
       <ActiveDrawer />
       <Header />
-      <Typography variant="h5" className="my-6">
-        DOC
-      </Typography>
+      <a
+        href="https://docs.google.com/file/d/1mxWl-KxFR3SR0MiSd6O4OrL8w9IsLI1y/edit?usp=docslist_api&filetype=msword"
+        target="_blank"
+      >
+        <Typography variant="h5" className="my-6">
+          DESCARGAR DOCUMENTACION PRESIONAR
+        </Typography>
+      </a>
+
       <FooterCalc />
     </>
   );
