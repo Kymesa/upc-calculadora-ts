@@ -7,16 +7,18 @@ import {
   Tooltip,
 } from "@material-tailwind/react";
 import { UiCreators } from "@TypesApp";
+import keinerImg from "../assets/keinerImg.jpg";
+import adrianImg from "../assets/adrianImg.jpg";
 const creators: UiCreators[] = [
   {
     name: "KEINER MESA",
     rol: "ESTUDIANTE ING SISTEMA - UPC",
-    img: "https://scontent.feoh2-1.fna.fbcdn.net/v/t39.30808-6/399937746_771691718054666_6142436198761798185_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEeloqaQaZAroqEgn1GvrjnSu55PQbrSbFK7nk9ButJsTrKaIV4nupj4e_Oh4HEPujfzEm74D6JbrWCeyybG4rZ&_nc_ohc=OmKKu9rvHC4AX8FzD7y&_nc_ht=scontent.feoh2-1.fna&oh=00_AfBQfWthKWZNJ7RaagZmn5PXP1MqH9PMb11aks4SZ0oFqA&oe=65586606",
+    img: keinerImg,
   },
   {
     name: "ADRIAN VILLA",
     rol: "ESTUDIANTE ING SISTEMA - UPC",
-    img: "https://scontent.feoh2-1.fna.fbcdn.net/v/t39.30808-6/274883866_103103535658208_3668879682185844994_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEvsAbakKRATuvttD5ZqbCOdCS2tuJCwll0JLa24kLCWU5c39AAIjLn7DBB78EGZ0JYzULGMrdpxYeD3RsdB_OE&_nc_ohc=jsU8U4N2O1oAX8koYqo&_nc_ht=scontent.feoh2-1.fna&oh=00_AfAtub5UDXXnnW657wfsxi4I57b89uWO03W7ZhmYRq17Ng&oe=6557678B",
+    img: adrianImg,
   },
   {
     name: "RICARDO MADRID",

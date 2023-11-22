@@ -16,7 +16,7 @@ const Drawers = ({ open, closeDrawer }: PropsTypesDrawer) => {
   return (
     <React.Fragment>
       <Drawer
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 0 }}
         size={270}
         open={open}
         onClose={closeDrawer}
