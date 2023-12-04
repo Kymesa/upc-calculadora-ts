@@ -25,7 +25,7 @@
 
 > [!WARNING]
 > Dangerous certain consequences of an action.
->
+
 > ```console
 > npm install react-router-dom
 > ```
