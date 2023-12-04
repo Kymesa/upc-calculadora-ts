@@ -2,14 +2,6 @@
 
 > [!NOTE]
 > Information the user should notice even if skimming.
->
-> - [x] Primera tarea
-> - [ ] Segunda tarea
-> - [ ] Tercera tarea
-> - [ ] :memo: **Nota:** Esto es una nota.
->
-> # Esto es un encabezado
->
 > Esto es un **texto en negrita** y esto un _texto en cursiva_
 
 > [!TIP]
